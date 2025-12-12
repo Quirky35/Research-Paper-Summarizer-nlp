@@ -1,0 +1,23 @@
+@"
+# virtual envs
+flask_env/
+venv/
+env/
+.venv/
+
+# model folders (never commit)
+models/
+*.bin
+*.pt
+*.safetensors
+*.h5
+
+# runtime/upload files
+uploads/
+instance/
+.env
+
+# python cache
+__pycache__/
+*.pyc
+"@ > .gitignore
